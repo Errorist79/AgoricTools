@@ -12,7 +12,7 @@
       }
     ]
   },
-  "description": "Chainode Tech Grafana dashboard for Tendermint based blockchains",
+  "description": "Grafana dashboard for Tendermint based blockchains",
   "editable": true,
   "gnetId": 9894,
   "graphTooltip": 0,
@@ -23,19 +23,19 @@
       "icon": "external link",
       "tags": [],
       "targetBlank": true,
-      "title": "Chainode Tech homepage",
+      "title": "Homepage",
       "tooltip": "",
       "type": "link",
-      "url": "https://chainode.tech/"
+      "url": ""
     },
     {
       "icon": "external link",
       "tags": [],
       "targetBlank": true,
-      "title": "Chainode Tech Validator",
+      "title": "Validator",
       "tooltip": "",
       "type": "link",
-      "url": "https://testnet.explorer.agoric.net/validator/agoricvaloper10unt80nvhxhskyghxyn8hnmkc8c8a7f4pg9zvc"
+      "url": "https://testnet.axelarscan.io/validator/axelarvaloper1v6tqwcmf92c5e5jwe6klkauwgz3z5n8esuq303"
     }
   ],
   "panels": [
@@ -56,11 +56,11 @@
         {
           "targetBlank": true,
           "title": "Website",
-          "url": "https://chainode.tech/"
+          "url": ""
         }
       ],
       "options": {
-        "content": "<img width=\"100px\" src=\"https://www.chainode.tech/img/ChainodeTechLogo.png\" />",
+        "content": "",
         "mode": "html"
       },
       "pluginVersion": "7.5.1",
@@ -78,7 +78,7 @@
       },
       "id": 182,
       "panels": [],
-      "title": "Agoric Validator",
+      "title": "Axelar Validator",
       "type": "row"
     },
     {
@@ -164,7 +164,7 @@
     },
     {
       "datasource": null,
-      "description": "Chainode Tech Validator Voting Power",
+      "description": "Voting Power",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -1376,7 +1376,7 @@
       ],
       "timeFrom": null,
       "timeShift": null,
-      "title": "Chainode Tech System Health",
+      "title": "System Health",
       "type": "bargauge"
     },
     {
@@ -1845,7 +1845,7 @@
       "timeFrom": null,
       "timeRegions": [],
       "timeShift": null,
-      "title": "Chainode Tech Avg. System Load",
+      "title": "Avg. System Load",
       "tooltip": {
         "shared": true,
         "sort": 0,
@@ -2749,7 +2749,7 @@
   "tags": [
     "Cosmos",
     "Tendermint",
-    "Agoric"
+    "Axelar"
   ],
   "templating": {
     "list": [
@@ -2833,8 +2833,8 @@
         "allValue": null,
         "current": {
           "selected": false,
-          "text": "agorictest-7",
-          "value": "agorictest-7"
+          "text": "axelar-testnet-lisbon-3",
+          "value": "axelar-testnet-lisbon-3"
         },
         "datasource": "Prometheus",
         "definition": "label_values(tendermint_consensus_height, chain_id)",
@@ -3025,7 +3025,7 @@
     ]
   },
   "timezone": "browser",
-  "title": "Agoric Validator",
+  "title": "Axelar Validator",
   "uid": "9881",
   "version": 89
 }
